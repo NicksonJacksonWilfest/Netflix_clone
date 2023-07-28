@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: black;
+    --btn-color: red;
+    --text-color: white;
+    --font-size: 2em;
+    --border-radius: 5px;
+    --link-color: rgb(85, 85, 85);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30 vh;
+    background-image: url(Media/alpha_website_large.jpg);
+}
+
+.loginsect {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: var(--bg-color) ;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: var(--font-size) ;
+}
+
+.inputs {
+    width: 300px;
+}
+
+.inputs input {
+    
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: var(--border-radius);
+
+
+}
+
+.inputs .icon {
+    position: absolute;
+    right:  50px;
+    color: var(--bg-color);
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.alert {
+    font-size: .9em;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert label input {
+    margin-right: 3px;
+
+}
+
+.alert a {
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+
+.alert a:hover {
+    text-decoration: underline;
+}
+
+button {
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--btn-color);
+    color: var(--text-color);
+}
+
+.front a {
+    color: var(--text-color);
+    text-decoration: none;
+    
+}
+
+.front a:hover {
+    text-decoration: underline;
+}
+
+.front #get {
+    font-size: 12px;
+}
+.front #get a {
+    color: rgb(64, 149, 252);
+}
