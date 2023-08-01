@@ -47,6 +47,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-weight: 600;
 }
 
 .navbar {
@@ -62,6 +63,7 @@ p {
 
 
 .headdesc {
+    margin: 70px;
     display: grid;
     place-items: center;
     align-items: center;
@@ -76,6 +78,7 @@ p {
 .signbox {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     justify-content: space-around;
     
 }
@@ -114,8 +117,10 @@ p {
 }
 
 .inside button {
+    position: relative;
     font-size: 12px;
     font-weight: 600;
+    left: 10px;
     height: 45px;
     width: 120px;
 }
