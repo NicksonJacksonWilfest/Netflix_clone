@@ -188,3 +188,17 @@ p {
     font-weight: 600;
     color: rgb(85, 133, 255);
 }
+
+#option {
+    margin: 0 20px;
+    color: var(--text-color);
+    background-color: rgb(70, 70, 70);
+    border: none;
+    border-radius: var(--border-radius);
+    
+}
+
+.tag p {
+    margin: 0 20px;
+    font-size: 15px;
+}
